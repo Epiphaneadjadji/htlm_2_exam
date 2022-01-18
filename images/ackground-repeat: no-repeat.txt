@@ -1,0 +1,1 @@
+ackground-repeat: no-repeat;
