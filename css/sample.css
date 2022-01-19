@@ -82,11 +82,11 @@ html {
   .function {
     background-color: #D3D3D3;
     margin-top: 10px;
-    margin-bottom: auto%;
+    margin-bottom: auto;
     background-repeat: no-repeat;
     background-size: auto;
     padding:0 20px;
-    z-index: 10000;
+   
   }
 
   .function-images {
