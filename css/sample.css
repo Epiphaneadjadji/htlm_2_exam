@@ -1,119 +1,123 @@
 html {
-    position: relative;
-    min-height: 100%;
-  }
-  body {
-    text-align: center;
-  }
-  .main-header {
-    padding-bottom: 15%;
-    width: 100%;
-    background-size: cover;
-    background-image: url("../images/header.jpg");
-    background-attachment: fixed;
-  }
-  /* from here */
-  header {
-    background-color: #2b2b2b;
-    height: 50px;
-    margin-top: 0%;
-  }
-  header ul {
-    padding: 1rem;
-    
-    
-    
-  }
-  header ul a {
-    color: #fff;
-    text-decoration: none;
-  }
-  header li {
-    list-style: none;
-  }
-  header .left1{
-    display: inline;
-    float:left;
-
-  }
-  header .left2{
-    display: inline;
-    float:left;
-    margin-left: 1rem;
-  }
-  header .right1{
-    display: inline;
-    float:right;
-  }
-  header .right2{
-    display: inline;
-    float:right;
-    margin-right: 1rem;
-  }
-
-  .main-header {
-    text-align: center;
-    padding: auto;
-  }
-  img {
-    width: 13%;
- }
-  .main-header {
-    text-align: center;
-    background-size: cover;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-  .about h1 {
-    font-size: 1.5rem;
-    }
-  .about p {
-    font-size: 0.8rem;
-  }
+  position: relative;
+  min-height: 100%;
+}
+body {
+  text-align: center;
+}
+.main-header {
+  padding-bottom: 15%;
+  width: 100%;
+  background-size: cover;
+  background-image: url("../images/header.jpg");
+  background-attachment: fixed;
+}
+/* from here */
+header {
+  background-color: #2b2b2b;
+  height: 50px;
+  margin-top: 0%;
+}
+header ul {
+  padding: 1rem;  
   
-  header ul:after  {
+}
+header ul a {
+  color: #fff;
+  text-decoration: none;
+}
+header li {
+  list-style: none;
+}
+header .left1{
+  display: inline;
+  float:left;
+}
+header .left2{
+  display: inline;
+  float:left;
+  margin-left: 1rem;
+}
+header .right1{
+  display: inline;
+  float:right;
+}
+header .right2{
+  display: inline;
+  float:right;
+  margin-right: 1rem;
+}
+.main-header {
+  text-align: center;
+  padding: auto;
+}
+img {
+  width: 13%;
+}
+.main-header {
+  text-align: center;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.about h1 {
+  font-size: 1.5rem;
   }
-  /* Up to here is the implementation of the header part */
-  .main-header img {
-  /* Implementation of main image (white “Achieve” text image) */
-  }
+.about p {
+  font-size: 0.8rem;
+}
+
+/*:header ul:after  {
+}
+/* Up to here is the implementation of the header part */
+/*.main-header img {
+/* Implementation of main image (white “Achieve” text image) 
+}
+
+/* from here */
+.function {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #D3D3D3;
   
-  /* from here */
-  .function {
-    background-color: #D3D3D3;
-    margin-top: 10px;
-    margin-bottom: auto;
-    background-repeat: no-repeat;
-    background-size: auto;
-    padding:0 20px;
-   
-  }
+}
 
-  .function-images {
-    display: inline-block;
-    height: fit-content;
+.function-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+
     
-  }
-  .function-image {
-    float: left;
-    margin: 50px;
-    padding: 50px;
-    background-repeat: no-repeat;
-    height: 0.5vh;
-  }
+}
+.function-image img {
+  width: 120px;
+  height: 120px;
+ 
+}
+.function-image {
+  margin-right: 20px;
 
-  .function-image p{
-    padding-bottom: 5px;
-    margin-bottom: 2px;
-  }
-  /* Up to here is the implementation of the function part */
-  footer {
-   height: 70px;
-   background-color: #283A4B;
-   font-size: 00.8rem;
-   text-align: center;
-   color: white;
-   position:relative;
-   padding-top: 1rem;
-   margin-top: -30px;
-  }
+}
+
+.function-image p {
+  width: 150px;
+}
+
+/* Up to here is the implementation of the function part */
+footer {
+ height: 70px;
+ background-color: #283A4B;
+ font-size: 0.8rem;
+ justify-content: center;
+ color: white;
+ display: flex;
+ flex-direction: column;
+ 
+}
+footer p {
+  margin: 5px;
+
+}
